@@ -25,16 +25,11 @@ def user_input():
 
 
     f = open("rekins.txt", "w")
-    f.write("Datums: " + format(today))
-    f.write("\n")
-    f.write("Jusu vards: " + format(name))
-    f.write("\n")
-    f.write("Jusu teksts: " + format(text))
-    f.write("\n")
-    f.write("Produkta cena: " + format(produkta_cena, ",.2f"))
-    f.write("\n")
-    f.write("PVN summa: " + format(PVN_summa, ",.2f"))
-    f.write("\n")
+    f.write("Datums: " + format(today) + "\n")
+    f.write("Jusu vards: " + format(name)  + "\n" )
+    f.write("Jusu teksts: " + format(text) + "\n")
+    f.write("Produkta cena: " + format(produkta_cena, ",.2f") + "\n")
+    f.write("PVN summa: " + format(PVN_summa, ",.2f") + "\n")
     f.write("Rekina summa: " + format(rekina_summa, ",.2f"))
     f.close()
 
