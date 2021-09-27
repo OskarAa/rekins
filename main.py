@@ -1,5 +1,10 @@
 import rekins
 
+from datetime import date
+
+today = date.today()
+print("Šodienas datums:", "[", today , "]")
+
 def print_info():
 
     txt = ('\033[94m{}\033[0m'.format("[Rēķinu izrakstīšanas programma]"))
@@ -39,11 +44,6 @@ def user_input():
     print("Rekina summa: €" + format(rekina_summa, ",.2f"))
     print("\033[94m{}\033[0m".format("--------------------------------"))
 
-
-from datetime import date
-
-today = date.today()
-print("Šodienas datums:", "[", today , "]")
 
 if __name__ == '__main__':
     print_info()
