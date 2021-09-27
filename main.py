@@ -13,7 +13,7 @@ def user_input():
     text = input("Jūsu teksts: ")
     height = float(input("Cik augstu kaste vēlas? "))
     width = float(input("Cik platu kastīti vēlaties? (tikai veseli skaitļi): "))
-    material = float(input("materiāla cena: "))
+    material = float(input("Materiāla cena: "))
     length = float(input("Cik garumu kaste vēlas? "))
 
     darba_samaksa = 15
