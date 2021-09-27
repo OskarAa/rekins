@@ -3,7 +3,7 @@ import rekins
 from datetime import date
 
 today = date.today()
-print("Šodienas datums:", "[", today , "]")
+print("Šodienas datums:","[",today,"]")
 
 def print_info():
 
